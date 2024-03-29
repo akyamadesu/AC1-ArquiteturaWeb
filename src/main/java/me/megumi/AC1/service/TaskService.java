@@ -9,4 +9,6 @@ public interface TaskService {
     Task getTaskById(Long id);
     Task createTask(Task task);
     Task removeTask(int id);
+
+    void removeTask(Long id);
 }
