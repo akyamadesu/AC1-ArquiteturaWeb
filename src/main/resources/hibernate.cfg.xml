@@ -6,8 +6,8 @@
     <session-factory>
         <!-- Configurações do Banco de Dados -->
         <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/tasks</property>
-        <property name="hibernate.connection.username">postgres</property>
-        <property name="hibernate.connection.password">postgres</property>
+        <property name="hibernate.connection.username">admin</property>
+        <property name="hibernate.connection.password">admin</property>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
 
         <!-- Configurações do Hibernate -->
@@ -16,6 +16,6 @@
         <property name="hibernate.show_sql">true</property>
         <property name="hibernate.current_session_context_class">thread</property>
 
-        <mapping class="facens.arquiteturaweb.aula3.modelo.Task"/>
+        <mapping class="me.megumi.AC1.modelos.Task"/>
     </session-factory>
 </hibernate-configuration>
